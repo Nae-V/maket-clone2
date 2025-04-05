@@ -1,0 +1,33 @@
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    padding: 10px 0 30px 0;
+    border-top: 1px solid rgba(128, 128, 128, 0.454);
+    background-color: aliceblue;
+}
+
+.footer-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__icons {
+    /* font-size: 15px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 0 10px;
+    cursor: pointer;
+}
+
+.footer__icons__img {
+    width: 40px;
+}
+.footer__icons__dsec {
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
