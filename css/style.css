@@ -10,7 +10,6 @@ body {
 }
 
 .media-info-msg1 {
-    display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
@@ -18,12 +17,11 @@ body {
     left: 0;
     width: 100vw;
     height: 100vh;
-    opacity: 0;
+    display: none;
     background-color: brown;
 }
 
 .media-info-msg2 {
-    display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
@@ -31,17 +29,17 @@ body {
     left: 0;
     width: 100vw;
     height: 100vh;
-    opacity: 0;
+    display: none;
     background-color: brown;
 }
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 600px) {
     .media-info-msg1 {
-        opacity: 1;
+        display: flex;
     }
 }
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 360px) {
     .media-info-msg2 {
-        opacity: 1;
+        display: flex;
     }
 }
