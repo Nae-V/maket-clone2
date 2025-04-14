@@ -3,11 +3,11 @@
 @import 'footer.css';
 @import 'main.css';
 
-body {
+/* body {
     font-family: 'Nanum Pen Script', cursive;
     font-weight: 400;
     font-style: normal;
-}
+} */
 
 .media-info-msg1 {
     justify-content: center;
