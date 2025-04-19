@@ -55,11 +55,10 @@ const renderData = (data) => {
 };
 
 const fetchList = async () => {
-    const accessToken = window.localStorage.getItem('token');
+    //const accessToken = window.localStorage.getItem('token');
     const res = await fetch('/items', {
-        headers: {
-            Authorization: `Bearer ${accessToken}`,
-        },
+        method: 'GET',
+        credentials: 'include',
     });
 
     if (res.status === 401) {

@@ -10,10 +10,11 @@ const handleSubmit = async (event) => {
     const res = await fetch('/login', {
         method: 'post',
         body: formData,
+        credentials: 'include',
     });
     const data = await res.json();
     const accessToken = data.access_token;
-    window.localStorage.setItem('token', accessToken);
+    //window.localStorage.setItem('token', accessToken);
     alert('로그인되었습니다');
 
     window.location.pathname = '/';
