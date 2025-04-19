@@ -59,7 +59,7 @@ main {
     font-weight: bold;
 }
 
-.write-btn {
+/* .write-btn {
     background-color: rgba(137, 43, 226, 1);
     color: white;
     padding: 15px 25px 15px 25px;
@@ -73,7 +73,7 @@ main {
     transition: all 2s ease-in-out;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     text-decoration: none;
-}
+} */
 
 .write-btn:hover {
     background-color: var(--button-hover);
